@@ -64,26 +64,17 @@
     </footer>
 
     <script>
-        particlesJS("particles-js", {
-    particles: {
-        number: { value: 80 },
-        size: { value: 3 },
-        move: { speed: 2 },
-        color: { value: "#66ccff" },
-        line_linked: { enable: true, distance: 150, color: "#66ccff", opacity: 0.5 }
-    },
-    interactivity: {
-        detect_on: "canvas",
-        events: {
-            onhover: { enable: true, mode: "repulse" },
-            onclick: { enable: true, mode: "push" }  // Clicking adds new particles
-        },
-        modes: {
-            repulse: { distance: 100, duration: 0.4 },
-            push: { particles_nb: 4 }  // Click adds 4 particles
-        }
-    }
-});
+         particlesJS("particles-js", {
+            particles: {
+                number: { value: 80 },
+                size: { value: 3 },
+                move: { speed: 2 },
+                color: { value: "#66ccff" }
+            },
+            interactivity: {
+                events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" } }
+            }
+        });
     </script>
 </body>
 </html>
